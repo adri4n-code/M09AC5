@@ -326,6 +326,21 @@ a{
 
 /* ----------- .article page ------- */
 
+.articles{
+    display: flex;
+    align-items: center;    
+    justify-content: space-evenly;
+
+    .card{
+        width: 250px;
+
+        .card-body{
+            text-align: justify;
+        }
+    
+    }
+}
+
 /* ----------- sidebar page ------- */
 #sidebar .categories a{
     padding: 1em 3em;
@@ -339,6 +354,8 @@ a{
     background-color: var(--primary-color);
     color: var(--light);
 }
+
+
 
 /* ----------- .sidebar page ------- */
 
