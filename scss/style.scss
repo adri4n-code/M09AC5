@@ -234,8 +234,6 @@ a{
 }
 
 
-/* ------- .Navigation Menu ---------- */
-
 /* ----------- Main Section ---------- */
 
 #site-main{
@@ -277,8 +275,6 @@ a{
     border-top: 2px solid var(--light);
 }
 
-
-/* ----------- .footer ---------- */
 
 /* ----------- article page ------- */
 
@@ -327,12 +323,11 @@ a{
 /* ----------- .article page ------- */
 
 .articles{
-    display: flex;
-    align-items: center;    
+    display: flex;  
     justify-content: space-evenly;
 
     .card{
-        width: 250px;
+        width: 15px;
 
         .card-body{
             text-align: justify;
@@ -357,7 +352,20 @@ a{
 
 
 
-/* ----------- .sidebar page ------- */
+/* ----------- .aboutpage ------- */
+.about {
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+
+        .col-3{
+            .infoabout{
+                text-align: center;
+            }
+        }
+
+      
+}
 
 /* ----------- sticky ------- */
 
